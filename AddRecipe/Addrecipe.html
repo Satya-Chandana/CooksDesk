@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="form66addrec.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                Add Recipe
+            </div>
+            <form id="form" class="form" action="../Mainpg/intex.html" method="POST" onsubmit="return checkInputs()">
+                <div class="userdet">
+                <div class="form-control">
+                    <label for="username" class="det">Recipe title</label>
+                    <input type="text" placeholder="" id="title" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                </div>
+                <div class="form-control">
+                        <label for="username" class="det" >List of Ingredients</label>
+                    <textarea name="message" rows="10" cols="80"></textarea>
+                </div>
+                
+                <div class="form-control">
+                    <label for="username" class="det">Preparation Steps</label>
+                <textarea name="message" rows="15" cols="80"></textarea>
+            </div>
+                
+                <div class="button">
+                    <input type="submit" value="Add recipe">
+                </div>
+            </form>
+        </div>
+
+
+
+        <script src="formaddrec.js"></script>
+    </body>
+</html>
