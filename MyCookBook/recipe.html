@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <style>
+      
+      table, th, td {
+        border: 3px solid rgb(73, 73, 73);
+        border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+        }
+  </style>
+        <link rel="stylesheet" href="form66book.css">
+        <link rel="stylesheet" href="../signin/fsgn.css">
+        <link rel="stylesheet" href="../signin/sl.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                Explore Recipe
+            </div>
+            <form id="form" class="form" action="recipe.html" method="POST" onsubmit="return checkInputs()">
+                
+                
+                <div class="form-control">
+                    <label for="username" class="det">Enter Recipe Title</label>
+                    <input type="text" placeholder="florinpop17" id="title" />
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                
+          
+                
+                <div class="button">
+                    <input type="submit" value="Enter!">
+                </div>
+                
+                <div style="padding-left: 40px; padding-right: 40px;">
+                    <table style="width:100% ; background-color: rgba(255, 225, 180, 0.685);">
+                        <tr>
+                          <th>Recipie Title</th>
+                          <th>Ingredients</th>
+                          <th>Steps</th> 
+                        </tr>
+        
+                        <tr>
+                          <td>-</td>
+                          <td><p>1)<br>
+                                 2)</p>
+                          </td>
+                          <td><p>Step 1:<br>
+                              Step 2:</p>
+                        </td>
+                        </tr>
+                        
+                        
+                  
+        
+                      </table>
+            </div>
+                
+            </form>
+            <br>
+            <br>
+            <p style=" font-family: 'Pacifico', cursive; font-size: 20px;">
+                <a href="../Mainpg/intex.html"><-- Go back to home</a><br>
+               
+            </p>
+        </div>
+
+
+
+        <script src="formjsbook.js"></script>
+    </body>
+</html>
