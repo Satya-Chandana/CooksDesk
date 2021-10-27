@@ -1,0 +1,16 @@
+/* font-family:Abel*/
+@font-face {
+    font-family: Breeserif;
+    src: url('./fontsign/Bree_Serif/BreeSerif-Regular.ttf');
+}
+ 
+/* font-family:Anton*/
+@font-face {
+    font-family: DScript;
+    src: url('./fontsign/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}
+/* font-family:jose*/
+@font-face {
+    font-family: Lobster;
+    src: url('./fontsign/Lobster/Lobster-Regular.ttf');
+}
