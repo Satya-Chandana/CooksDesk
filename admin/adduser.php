@@ -19,11 +19,15 @@ if(isset($_SESSION) && $_SESSION['admin']){
         <title>Add User</title>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
- 
+            @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@1,300&display=swap');
 
             table, th, td {
         border: 3px solid rgb(73, 73, 73);
         border-collapse: collapse;
+        text-align: center;font-family: 'Averia Serif Libre', cursive; 
+        color: rgb(58, 0, 97);
+         font-size: 100%; 
+         
         }
         th, td {
             padding: 15px;
