@@ -7,7 +7,7 @@ There are SignIn and SignUp options in the application. When a user needs to add
 This application also has an admin portal where an admin can add,update and delete user details.
 ### (Please download the folder "Final" as there is the whole code in that folder)
 
-# Walkthrough
+## Walkthrough
 
 ### User
 1. Sign Up to register.
