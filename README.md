@@ -5,11 +5,11 @@ The Cooks Desk is a an application where a user can make a Cook book. A user can
 There are SignIn and SignUp options in the application. When a user needs to add their recipe, they can SignUp and add them. The list of recipes added by a particular user will be shown in "MyCookbook" (webpage where a user can find their recipes). If a user wants to try out a new recipe they can click to "Find a recipe" which would redirect them to a page where there will be a list of recipes added by all users. Using a key word a user can search a recipe.  
 
 This application also has an admin portal where an admin can add,update and delete user details.
-### (Please download the folder "final" as there is the whole code in that folder)
+#### (Please download the folder "final" as there is the whole code in that folder)
 
 # Walkthrough
 
-# User
+### User
 1. Sign Up to register.
 2. Logging In (It is must for a user to login before they can add their recipe).
 3. Add a recipe.
@@ -18,6 +18,6 @@ This application also has an admin portal where an admin can add,update and dele
 6. When a user clicks find a recipe button , it redirects to a page where a user can search for recipes added by other users as well as his own recipes by using a key word. 
 7. There is also a logout option in the main page for a user to logout.
 
-## Admin
+### Admin
 1. Admin needs to login to access the data(using credentials).
 2. Once the admin logins he'll have three options , add, update and delete. Using these options an admin can make changes to data. 
