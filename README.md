@@ -8,7 +8,8 @@ This application also has an admin portal where an admin can add,update and dele
 ### (Please download the folder "final" as there is the whole code in that folder)
 
 # Walkthrough
-## User 
+
+# User
 1. Sign Up to register.
 2. Logging In (It is must for a user to login before they can add their recipe).
 3. Add a recipe.
